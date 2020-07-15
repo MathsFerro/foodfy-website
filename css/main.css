@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li { list-style: none; }
+a { text-decoration: none; }
+
+#content{
+    max-width: 940px;
+    margin: 40px auto;
+    padding: 0 2%;
+}
