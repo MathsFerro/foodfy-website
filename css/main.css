@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;900&display=swap');
+
+:root{
+    --color-font: #111111;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 li { list-style: none; }
@@ -11,4 +17,86 @@ a { text-decoration: none; }
     max-width: 940px;
     margin: 40px auto;
     padding: 0 2%;
+}
+
+header .header-navigation nav ul,
+header.content-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header .header-navigation {
+    margin-left: 120px;
+}
+
+header .header-navigation nav ul li a {
+    color: var(--color-font);
+    font-size: 16px;
+    padding: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: box-shadow 0.3s;
+}
+
+header .header-navigation nav ul li a:hover{
+    -webkit-box-shadow: 0px 5px 3px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 5px 3px 1px rgba(0,0,0,0.15);
+    box-shadow: 0px 5px 3px 1px rgba(0,0,0,0.15);
+} 
+
+section#card-description {
+    width: 100%;
+    height: 366px;
+    margin-top: 30px;
+    
+    display: flex;
+    align-items: center;
+
+    background: #FBDFDB;
+    border-radius: 30px; 
+
+    position: relative;
+}
+
+section#card-description .description{
+    width: 350px;
+    margin-left: 60px;
+}
+
+section#card-description h1{
+    font-size: 32px;
+    color: var(--color-font);
+}
+
+section#card-description p {
+    opacity: 0.7;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000000;
+    line-height: 28px;
+}
+
+section#card-description .imgCard{
+    position: absolute;
+    right: 100px;
+    top: 66px;
+}
+
+footer{
+    
+    background: #EEEEEE;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999999;
+    padding-top: 1.8%;
+    padding-bottom: 1.8%;
 }
