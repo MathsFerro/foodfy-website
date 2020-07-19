@@ -1,0 +1,17 @@
+a[id='1']{
+    font-weight: bold;
+}
+
+section#container-about h1{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #111111;
+}
+
+section#container-about p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
